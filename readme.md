@@ -21,6 +21,7 @@ Our requirements are very similar to the requirements from StyleGAN3 repo.
   commands with Miniconda3 to create and activate your LELSD Python environment:
     - `conda env create -f environment.yml`
     - `conda activate stylegan3`
+    - some notebooks might require extra libraries such as manipLELSD where we use streamlit
 * Docker users:
     - Ensure you have correctly installed
       the [NVIDIA container runtime](https://docs.docker.com/config/containers/resource_constraints/#gpu).
