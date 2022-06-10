@@ -67,18 +67,3 @@ https://github.com/NVlabs/stylegan2-ada-pytorch
 ```
 https://github.com/betterze/StyleSpace
 ```
-## Citation
-```
-@article{pajouheshgar2021optimizing,
-  title={Optimizing Latent Space Directions For GAN-based Local Image Editing},
-  author={Pajouheshgar, Ehsan and Zhang, Tong and S{\"u}sstrunk, Sabine},
-  journal={arXiv preprint arXiv:2111.12583},
-  year={2021}
-}
-@misc{https://doi.org/10.48550/arxiv.2011.12799,
-  author = {Wu, Zongze and Lischinski, Dani and Shechtman, Eli},
-  title = {StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation},
-  publisher = {arXiv},
-  year = {2020}
-}
-```
