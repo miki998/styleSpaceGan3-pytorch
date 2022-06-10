@@ -36,7 +36,7 @@ jupyter notebook "NOTEBOOK-NAME"
 ```
 
 ## NOTICE
-1/ Due to losing the large part of our code base written during semester, there might be some differences of generated images from the report because of us forgetting which seed was used for the generating and inverting.
+1/ Due to losing the large part of our code base written during semester, there might be some differences of generated images from the report because of us forgetting which seed was used for the generating and inverting. However the code in itself is made so to be fully repoducible.
 
 2/ This repository is largely inspired by `IVRL — LELSD` as mentioned in acknowledgement.
 Even though our project is largely notebook-based, we modified partially code from the original repository the following way (to adapt for stylegan3):
