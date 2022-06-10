@@ -1,0 +1,60 @@
+{
+    "batch_size": 1,
+    "gamma_correlation": 5.0,
+    "init_time_signature": "May28_17-52-05",
+    "latent_dim": 1024,
+    "latent_space": "S3",
+    "localization_layer_weights": [
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142,
+        0.07142857142857142
+    ],
+    "localization_layers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+    ],
+    "log_dir": "../out/lelsd_stylegan3_ffhq/S3_L2_average/1D/face_bisenet/mouth/May28_17-52-05",
+    "loss_function": "L2",
+    "lr": 0.001,
+    "mask_aggregation": "average",
+    "max_alpha_value": 1.0,
+    "min_abs_alpha_value": 0.0,
+    "min_alpha_value": -1.0,
+    "mode": "foreground",
+    "n_layers": 15,
+    "num_latent_dirs": 1,
+    "onehot_temperature": 0.001,
+    "random_seed": 1234,
+    "s_layers_to_apply": [
+        3
+    ],
+    "semantic_parts": [
+        "mouth",
+        "u_lip",
+        "l_lip"
+    ],
+    "unit_norm": false
+}
