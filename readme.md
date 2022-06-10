@@ -1,7 +1,7 @@
 ## Description
 - We re-apply style channel searching techniques on stylegan3-R and stylegan3-T. (inspired from https://github.com/betterze/StyleSpace)
 - The found channels are used for editing on both generated images and real-inverted images
-- Inversion was done by projection
+- Inversion was done by projection (through respective stylegan3 model)
 
 
 ## Requirements
