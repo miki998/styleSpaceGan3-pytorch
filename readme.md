@@ -35,11 +35,15 @@ jupyter notebook "NOTEBOOK-NAME"
 ```
 
 ## NOTICE
-This repository is largely inspired by `IVRL — LELSD` as mentioned in acknowledgement.
+1/ Due to losing the large part of our code base written during semester, there might be some differences of generated images from the report because of us forgetting which seed was used for the generating and inverting.
+2/ This repository is largely inspired by `IVRL — LELSD` as mentioned in acknowledgement.
 Even though our project is largely notebook-based, we modified partially code from the original repository the following way (to adapt for stylegan3):
 - lelsd.py 
 - apps/sequential_editing.py 
 - utils/stylegan3_utils.py 
+
+3/ Outputed values
+ALSO stylespace channels found within Stylegan2 and Stylegan3 are saved in both `logs` and `out` folders for stylespace method and LELSD methods respectively. (there is an explained readme in the `logs` folder explaining what the values are)
 
 ## Acknowledgement
 
