@@ -1,8 +1,10 @@
 ## Description
+Our code is largely notebook based and is applying stable scripts from previously known repositories. 
+Main points are as follows:
 - We re-apply style channel searching techniques on stylegan3-R and stylegan3-T. (inspired from https://github.com/betterze/StyleSpace)
 - The found channels are used for editing on both generated images and real-inverted images
 - Inversion was done by projection (through respective stylegan3 model)
-
+- Some experiments were done to qualitatively and quantitatively compare edit quality across models
 
 ## Requirements
 
@@ -31,6 +33,13 @@ Open jupyter notebooks inside the `notebooks` folder
 ```
 jupyter notebook "NOTEBOOK-NAME"
 ```
+
+## NOTICE
+This repository is largely inspired by `IVRL — LELSD` as mentioned in acknowledgement.
+Even though our project is largely notebook-based, we modified partially code from the original repository the following way (to adapt for stylegan3):
+- lelsd.py 
+- apps/sequential_editing.py 
+- utils/stylegan3_utils.py 
 
 ## Acknowledgement
 
