@@ -23,11 +23,10 @@ Our requirements are very similar to the requirements from StyleGAN3 repo.
 
 ## Getting started
 
-Open following notebooks 
+Open jupyter notebooks inside the `notebooks` folder
 
 ```
-jupyter notebook demoPipeline.ipynb
-jupyter notebook generateInfos.ipynb
+jupyter notebook "NOTEBOOK-NAME"
 ```
 
 ## Acknowledgement
@@ -44,6 +43,11 @@ https://github.com/IVRL/LELSD
 
 ```
 https://github.com/NVlabs/stylegan2-ada-pytorch
+```
+
+**StyleSpace Analysis: Disentangled Controls for StyleGAN Image Generation
+```
+https://github.com/betterze/StyleSpace
 ```
 ## Citation
 ```
